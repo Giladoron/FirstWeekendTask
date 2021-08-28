@@ -1,6 +1,62 @@
+*{
+    
+    box-sizing: border-box;
+    list-style: none;
+    font-family: sans-serif;
+  }
+
+
 code {
     background-color: #eee;
     border-radius: 3px;
     font-family: courier, monospace;
     padding: 0 3px;
 }
+
+#navbar {
+    position: fixed;
+    border-right: solid;
+    border-color: teal;
+    height: 100%;
+
+}
+
+
+#navbar li {
+    color: teal;
+    border-top: solid;
+    list-style: none;
+    position: relative;
+    width: 100%;
+}
+
+#navbar a {
+    display: block;
+    padding: 25px 30px;
+    color: slategrey;
+}
+
+#main-doc {
+    position: absolute;
+    margin-left: 300px;
+    padding: 20px;
+}
+
+.last_link {
+border-bottom: solid;
+}
+
+.html_header {
+        font-size: 25px;
+        color: #00b27a;
+        font-family: Times New Roman;
+        text-shadow: 0px 0px 0 rgb(-64,114,58),
+                     0px 1px 0 rgb(-127,51,0),
+                     0px 2px 0 rgb(-191,-13,0),
+                     0px 3px 0 rgb(-255,-77,0),
+                     0px 4px  0 rgb(-319,-141,0),
+                     0px 5px 4px rgba(0,0,0,0.97),
+                     0px 5px 1px rgba(0,0,0,0.5),
+                     0px 0px 4px rgba(0,0,0,.2);
+     }
+    
