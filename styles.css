@@ -14,10 +14,11 @@ code {
 
 #navbar {
     position: fixed;
-    border-right: solid;
+    border-style: 10px solid;
     border-color: teal;
     height: 100%;
     margin-right: 30px;
+    background-image: url(photo2.jpg);
 
 }
 
@@ -34,12 +35,15 @@ code {
     display: block;
     padding: 25px 30px;
     color: slategrey;
+    background: wheat;
+    
 }
 
 #main-doc {
     position: absolute;
     margin-left: 230px;
     padding: 20px;
+    background-image: url(photo2.jpg)
 }
 
 .last_link {
